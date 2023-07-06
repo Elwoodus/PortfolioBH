@@ -1655,3 +1655,19 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		
+		.icon-spaced {
+			display: inline-block;
+			padding: 8px;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			margin-right: 8px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			transition: transform 0.3s ease-in-out;
+		  }
+		
+		  .icon-spaced:hover {
+			transform: scale(1.1);
+		  }
+	 
