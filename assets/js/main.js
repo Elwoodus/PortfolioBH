@@ -461,7 +461,7 @@ class TextScramble {
   const phrases = [
 	'Développeur',
 	'FRONT-END',
-	'Vous accompagnez',
+	'Vous accompagner',
 	'Dans la réalisation',
 	'de vos projets ',
 	'Boostons votre visibilité sur le web',
@@ -473,7 +473,7 @@ class TextScramble {
   let counter = 0
   const next = () => {
 	fx.setText(phrases[counter]).then(() => {
-	  setTimeout(next, 800)
+	  setTimeout(next, 1500)
 	})
 	counter = (counter + 1) % phrases.length
   }
